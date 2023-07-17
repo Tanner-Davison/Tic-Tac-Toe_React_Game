@@ -1,0 +1,85 @@
+body{
+  margin: 0px;
+  width:100vw;
+  height: 100vh;
+}
+
+.App {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #232323;
+}
+
+span {
+  position: relative;
+  display:flex;
+  font-size: 22px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  padding-top:100px;
+  font-family: 'Caveat', cursive;
+  font-size: 40px;
+}
+
+.square {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  border: 2px solid #61dafb;
+  box-sizing: border-box;
+  border-radius: 18px;
+  font-family: 'Caveat', cursive;
+ 
+}
+.square:hover{
+   box-shadow: 1px 0px 10px cyan, 1px 0px 10px lightblue
+}
+
+.container {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 70px);
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  padding: 0.5em;
+  gap: 1em;
+  grid-template-rows: 70px 70px 70px;
+  margin-top:25px;
+}
+   button{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    width: 130px;
+    height: 40px;
+    background-color: #4d8cf2;
+    font-size: 15px;
+    padding: 10px;
+    color: #fff;
+    border: 2px solid #4c70ab;
+    border-radius: 9px;
+    margin-top: 50px;
+    border-radius: 50px;
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    left:75%;
+  }
+   button:hover {
+    display: flex;
+    background-color: #3b73ce;
+    border-color: #729fe7;
+    width: 130px;
+    height: 40px;
+    border-radius: 11px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
